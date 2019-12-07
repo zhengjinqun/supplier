@@ -1,0 +1,37 @@
+.dl-border {
+    border: 1px solid #f2f2f2;
+    padding: 20px 10px 10px;
+    margin-top: 10px;
+    border-radius: 3px;
+    background: #F8F8F8;
+    overflow: hidden;
+}
+.zcontnet{
+	margin: 10px 0;
+	background: #f2f2f2;
+	padding: 5px;
+}
+.xiugaizhuj1 .item input{
+	height: 28px;
+	width: 200px;
+	border: 1px solid #aaaaaa;
+}
+.xiugaizhuj1 .item{
+	margin-bottom: 10px;
+}
+.xiugaizhuj1 .item span{
+	display: block;
+	min-width: 100px;
+	text-align: right;
+}
+.xiugaizhuj1 .item select{
+	height: 31px;
+	width: 202px;
+}
+.xiugaizhuj1 .item .radio{
+	height: 15px;
+	width:15px;
+}
+.xiugaizhuj1 .item label{
+	padding-right: 25px;
+}

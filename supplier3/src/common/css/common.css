@@ -1,0 +1,214 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Roboto Condensed', sans-serif;   /*字体名称*/
+    src: url('/css/兰亭黑.TTF');       /*字体源文件*/
+  }
+.flex{
+	display: flex;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+	cursor: pointer;
+   
+}
+body{
+   font-family: "Microsoft YaHei","微软雅黑",\5b8b\4f53,Arial, Helvetica, sans-serif;
+   color: #828181;
+   font-size: 14px;
+}
+a, a:visited {
+    color: #828181;
+}
+input, textarea, button, a {
+    outline: 0;
+}
+a, a:hover {
+    text-decoration: none;
+}
+.flex {
+    display: box;
+    display: -webkit-box;
+    /* iOS 6-, Safari 3.1-6 */
+    display: -webkit-flex;
+    /* Chrome */
+    display: -moz-box;
+    /* Firefox 19 */
+    display: -ms-flexbox;
+    display: flex;
+    /*flex容器*/
+}
+.flex-row {
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    -o-flex-direction: row;
+    flex-direction: row;
+}
+
+.flex-column {
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+}
+
+.flex-center {
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    -o-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    -o-justify-content: center;
+    justify-content: center;
+}
+
+.flex-align {
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    -o-align-items: center;
+    align-items: center;
+    color: #000000;
+}
+
+.flex-justify {
+    justify-content: center;
+}
+
+.flex-around {
+    justify-content: space-around;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+}
+.z-button{
+	width: 200px;
+	height:40px;
+	background: #20A0FF;
+	color: #fff;
+	line-height: 40px;
+	text-align: center;
+}
+.z-button:hover{
+	background: #5cb4f5;
+}
+.z-input-sc{
+	position: absolute;
+	width: 100%!important;
+	margin: 0!important;
+	height: 100%!important;
+	opacity: 0;
+	z-index: 10;
+}
+/* 按钮 */
+.btn-a {
+    color: #fff;
+    display: inline-block;
+    border: 1px solid #adadad;
+    font-size: 12px;
+    text-align: center;
+    margin: 1px 2px 2px !important;
+    cursor: pointer;
+    height: 18px;
+    line-height: 18px;
+    padding: 0px 12px;
+    border-radius: 2px;
+    transition: background 0.5s;
+    -webkit-transition: background 0.5s;
+    -moz-transition: background 0.5s;
+    -ms-transition: background 0.5s;
+    -o-transition: background 0.5s;
+}
+.btn-a.btn-a-detail {
+    color: #fff;
+    background-color: #20A0FF;
+    border-color: #20A0FF;
+}
+.btn-a.btn-a-primary {
+    background-color: #20a0ff;
+    color: #fff;
+    border-color: #20a0ff;
+}
+.btn-a.btn-a-del {
+    color: #fff;
+    background-color: #ff4949;
+    border-color: #ff4949;
+}
+.btn-a.btn-a-revise {
+    background-color: #23b38f;
+    color: #fff;
+    border-color: #23b38f;
+}
+.btn-a.btn-a-disabled {
+    color: #fff;
+    background-color: #929a92;
+    border-color: #929a92;
+}
+/* list */
+.page-list {
+    overflow-x: hidden;
+}
+.page-list .checkbox{
+	width: 20px!important;
+	height: 20px!important;
+}
+.page-list table {
+    border: 1px solid #e7e4e4;
+    color: #241d1d;
+    text-align: left;
+}
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+}
+.page-list table tr {
+    font-size: 12px;
+    border: 1px solid #e8e8e8;
+}
+.page-list table th {
+	font-style: normal;
+	    font-weight: normal;
+    height: 36px;
+    font-size: 14px;
+	padding: 0 10px;
+    text-align: left;
+}
+.page-list table th input{
+	width: 20px;
+	height: 20px;
+	position: relative;
+	top: 2px;
+}
+.page-list table td {
+   
+	padding: 10px;
+    word-wrap: break-word;
+    position: relative;
+}
+.page-list table tr:hover{
+	background: #F5FFF5;
+	/* opacity: 0.3; */
+}
+.zhutishu{
+	margin: 10px 0;
+}
+.zhutishu span{
+	color: #ff5555;
+}
+/* 组件 */
+.leftwidth{
+	display: block;
+	min-width: 67.66px;
+}

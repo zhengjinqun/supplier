@@ -1,0 +1,50 @@
+.top{
+		margin: 20px 0;
+		color: #828181;
+	    background: #e5f6f2;
+	    padding: 10px;
+	    line-height: 24px;
+	    letter-spacing: 1.5px;
+}
+.listprodr{
+	height: 60px;
+	background: #F8F8F8;
+	padding: 0 10px;
+	color: #828181;
+}
+.listprodr span{
+	color: #828181;
+}
+.listprodr input{
+	height: 25px;
+	width: 150px;
+}
+.listprodr .z-button{
+	width: 100px;
+	margin-left: 10px;
+	line-height: 29px;
+	height: 29px;
+}
+.axiugaizhuj .bianji-item1{
+	color: #48576a;
+	margin: 10px 0;
+}
+.axiugaizhuj .bianji-item1 input ,.bianji-item select{
+	width: 200px;
+	margin: 5px;
+	height: 36px;
+	border: 1px solid #ddd;
+	box-sizing: border-box;
+}
+.axiugaizhuj  .radio{
+	height: 15px!important;
+	width:15px!important;
+}
+.axiugaizhuj  label{
+	padding-right: 25px;
+}
+.axiugaizhuj .bianji-item1 select{
+	width: 204px;
+	height: 34px;
+	margin: 5px 0;
+}

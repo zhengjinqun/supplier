@@ -1,0 +1,118 @@
+
+.top{
+		margin: 20px 0;
+		color: #828181;
+	    background: #e5f6f2;
+	    padding: 10px;
+	    line-height: 24px;
+	    letter-spacing: 1.5px;
+}
+.page-search{
+    margin: 10px 0;
+}
+.dl-border {
+    border: 1px solid #f2f2f2;
+    padding: 20px 10px 10px;
+    margin-top: 10px;
+    border-radius: 3px;
+    background: #F8F8F8;
+    overflow: hidden;
+}
+.f-c {
+    zoom: 1;
+}
+.f-c:before, .f-c:after {
+    content: "";
+    display: table;
+}
+.page-search .f-c li {
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    padding: 10px 0;
+	margin: 8px 0;
+}
+.page-search .f-c li span{
+    display: inline-block;
+	min-width: 100px;
+	text-align: right;
+}
+.page-search .f-c li input{
+    width: 150px;
+	height: 30px;
+	margin-right: 10px;
+}
+.page-search .f-c li select{
+    width: 154px;
+	height: 34px;
+	margin-right: 20px;
+}
+.order-numbers ul li.active {
+    background: #fff;
+
+    font-weight: bold;
+    color: #333;
+    border-top: solid 2px #f0ad4e;
+    margin-bottom: -1px;
+}
+.order-numbers ul {
+    border-bottom: solid 1px #ddd;
+    background: #F8F8F8;
+}
+.order-numbers ul:after {
+    display: table;
+    line-height: 0;
+    content: "";
+    clear: both;
+}
+.order-numbers ul li {
+		padding: 10px;
+    background: #ebebeb;
+    text-align: center;
+    color: #666;
+    border: 1px solid #c8c8c8;
+    border-width: 1px 1px 0;
+    float: left;
+    margin-right: -1px;
+}
+.order-numbers ul li.active a {
+    color: inherit;
+}
+.order-numbers ul li a {
+    display: block;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+.page-total, .page-count {
+    margin: 20px 0 5px 0;
+}
+/* 组件 */
+.page-search1 .el-date-editor.el-input{
+	width: 150px!important;
+	
+}
+.page-search1 .el-col-11{
+	width: 30%!important;
+}
+.page-search1 .el-form-item__label {
+		width:95px!important;
+	    text-align: right;
+	    vertical-align: middle;
+	    float: left;
+	    font-size: 14px;
+	    line-height: 1;
+	    padding:11px 5px 11px 0;
+	    box-sizing: border-box;
+}
+.page-search1 .el-input__inner{
+	width: 154px!important;
+	border-radius:0 ;
+	height: 34px!important;
+	border: 1px solid #aaaaaa;
+}
+.page-search1 .el-col-2{
+	text-align: center;
+}
+.page-search1 .el-form-item__content{
+	margin-left: 0!important;
+}

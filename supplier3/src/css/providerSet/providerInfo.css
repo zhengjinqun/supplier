@@ -1,0 +1,12 @@
+.top{
+		margin: 20px 0;
+		color: #828181;
+	    background: #e5f6f2;
+	    padding: 10px;
+	    line-height: 24px;
+	    letter-spacing: 1.5px;
+}
+.z-input1 input{
+	width: 300px;
+	height: 30px;
+}

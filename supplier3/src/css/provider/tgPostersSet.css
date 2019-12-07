@@ -1,0 +1,63 @@
+.top{
+		margin: 40px 0;
+		color: #828181;
+	    background: #e5f6f2;
+	    padding: 10px;
+	    line-height: 24px;
+	    letter-spacing: 1.5px;
+}
+.contnet{
+	padding: 0 40px;
+}
+.contnet>div{
+	width: 40%;
+}
+.color{
+	color: #23b38f;
+}
+.left-item{
+	
+}
+.left-item1{
+	height: 50px;
+	line-height: 50px;
+}
+.left-item1 input{
+	height: 23px;
+	width: 200px;
+}
+.sian{
+color: #929191;
+    font-size: 12px;
+	}
+.left-bot{
+	text-align: -moz-center;
+}
+.left-bot1{
+	position: relative;
+	width:202px!important;
+	height: 60px!important;
+	background: #20a0ff;
+	box-shadow: 1px 2px 4px rgba(0,0,0,.2);
+	color: #fff;
+	border-radius: 5px;
+}
+.left-bot1 img{
+	width: 30px;
+	height: 30px;
+}
+.left-item{
+	margin-bottom: 42px;
+}
+.shangc img{
+	width: 200px;
+	height: 200px;
+}
+.dahao{
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+.shili{
+	max-width: 250px;
+	
+}

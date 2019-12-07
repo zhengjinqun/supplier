@@ -1,0 +1,86 @@
+
+.top{
+		margin: 20px 0;
+		color: #828181;
+	    background: #e5f6f2;
+	    padding: 10px;
+	    line-height: 24px;
+	    letter-spacing: 1.5px;
+}
+.add-content {
+    margin-top: 10px;
+}
+
+.dl-border {
+    border: 1px solid #f2f2f2;
+    padding: 20px 10px 10px;
+    margin-top: 10px;
+    border-radius: 3px;
+    background: #F8F8F8;
+    overflow: hidden;
+}
+.dl-border {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #FCFCFC;
+    margin-bottom: 10px;
+}
+h4, .h4 {
+    font-size: 18px;
+}
+h4, .h4, h5, .h5, h6, .h6 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.add-content dl {
+    display: table;
+    color: #241d1d;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.add-content dl dt, .add-content dl dd {
+    display: table-cell;
+    line-height: 15px;
+    *display: inline-block;
+}
+.add-content dl dt {
+    text-align: right;
+    min-width: 110px;
+}
+.add-content dl dd {
+    padding-left: 5px;
+}
+.order-statistics {
+    width: 205px;
+    padding-top: 10px;
+    float: right;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix:before, .clearfix:after {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+.order-statistics li{
+	padding: 5px 0;
+}
+.txtCenter #j-order-deliver {
+    width: 100px;
+	height: 40px;
+	line-height: 40px;
+}
+.bottomshow{
+	position: relative;
+	top: -120px;
+}
+.bottomshow select{
+	width: 154px;
+	height: 30px;
+}
+.bottomshow input{
+	width: 150px;
+	height: 26px;
+}
